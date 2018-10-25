@@ -1,0 +1,239 @@
+<resources xmlns:color="http://schemas.android.com/tools">
+    <string name="app_name">google</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="today_s_news">Today\'s News</string>
+    <string name="log_out">Log out</string>
+    <string name="profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="administration">Administration</string>
+    <string name="academics">Academics</string>
+    <string name="departments">Departments</string>
+    <string name="placement">Placement</string>
+    <string name="campus">Campus</string>
+    <string name="contact_us">Contact us</string>
+    <string name="nirf">NIRF</string>
+    <string name="home">Home</string>
+    <string name="title_activity_contactus">contactus</string>
+    <string name="rmk_engineering_college">RMK ENGINEERING COLLEGE</string>
+    <string name="ipadress">http://rmkec.ac.in/mobileapp</string>
+    <string name="register_no_staff_use_library_number_from_id_card">Register No ( staff - Use library Number from ID Card )</string>
+    <string name="enter_university_register_number">Enter University Register Number</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="date_of_birth_yyyy_mm_dd">Date of Birth YYYY-MM-DD</string>
+    <string name="enter_your_dob_in_yyyy_mm_dd">enter your dob in yyyy_mm_dd</string>
+    <string name="name">Name</string>
+    <string name="department">Department</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="alternate_email">Alternate Email</string>
+    <string name="enter_your_email">Enter Your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="batch_final_sem_year_staff_select_joining_year">Batch: Final Sem Year ( staff : select Joining Year )</string>
+    <string name="category">Category</string>
+    <string name="register">Register</string>
+    <string name="r_m_k_engineering_college">R.M.K ENGINEERING COLLEGE</string>
+    <string name="chairman">Chairman</string>
+    <string name="vice_chairman">Vice Chairman</string>
+    <string name="management">Management</string>
+    <string name="chairman_message">Chairman Message</string>
+    <string name="vision_and_mission">Vision And Mission</string>
+    <string name="app_url">http://rmkec.ac.in/mobileapp/</string>
+    <string name="distinguished_guests">Distinguished Guests</string>
+    <string name="chairman_content"><![CDATA[ <b><font color=#F44336 > Thiru.R.S.Munirathinam Founder-Chairman</b> of R.M.K Engineering College is well known for his philanthropic attitude and service as an elected member of the State Assembly of Tamil Nadu. He envisioned a technological revolution and committed himself to establish an institution, to foster technical and higher education. He is a rare breed of educationalist, for whom quality is the way of life.<br><br>A compassionate and modest person to associate with, he is quite undeterred in his conviction in executing to perfection anything that is for common good.<br><br>
+The lush green environment, the expansive buildings, the well-equipped laboratories and the unparalleled discipline of the students standout as shining examples of his own unique style of management.<br><br>
+Thanks to the full time participation of the Management and the guidance provided by learned professors, the college has achieved great heights. The Management believes that the nation needs not just engineers and professionals, but virtuous men and women who can be engineers and professionals. Integrity of character and discipline are imparted to students to become good citizens capable of utilizing their talents for the development of our Nation.]]></string>
+    <string name="vicechair_content"><![CDATA[ <b><font color=#F44336 > Thiru.R.M.Kishor</b> is a Mechanical Engineer from the University of Madras and has acquired his Masters degree in Business administration from University of Huddersfield, UK. A young member of the team, who has been managing the RMK group of Educational Institutions.<br><br>
+With the full time participation of the Management and the guidance provided by learned professors, the college has achieved great heights in the field of technical education.<br><br>
+The Management believes that the nation needs not just engineers and professionals, but virtuous men & women who can be engineers and professionals. Integrity of character, and discipline are imparted to students to produce good citizens capable of utilizing their talents for our Nation.]]></string>
+    <string name="chairmanmessage">Dear Student,\n\nWelcome Home to RMK Engineering College.\n\nThe transition from school to college is a very big step in life. You have put in so much hardwork in your public exams, spent sleepless nights, earned a rewarding score, and with the blessings of your parent/guardian you have joined your chosen stream of education to realize your life-ambition and set the foundation for your future. By choosing to create a future for yourself from our institution means that we, the teachers and management at RMK are also responsible for your successful graduation and growth. You will cherish every day at your college, right from day one, you will feel welcome by all of us here – your seniors, your new professors, and members of administration you will get to interact with. What’s more the energetic environment will have you charged up to achieve your dream with confidence like never before. I assure you, you are home.\n\nIt is your career path that you have now embarked upon, which will be a remarkable journey in itself that will prepare you for a life beyond college. We hope to make your journey with us, engaging, encouraging and enlivening as ever, for you to grow as a thorough individual, ready to take on life as an adult. We pray and will work with you to see you become one with the society where your contribution will make a definitive difference to our world.\n\nThe commitment from us begins from day one - to work with you and walk with you through each day all through the years you will spend here which is your home away from home. As I mentioned earlier, the learned staff and the ever accessible management is there to guide you through your path and help you nurture your dreams and fulfill them – by empowering you to realize your true potential. Be it studies, sports or any extracurricular activities, you don’t just graduate with a degree and a certificate – but become a graduate of life and a true citizen of the world of tomorrow.\n\nWish you all the very best.\nYours truly,\nR. S. Munirathinam\nChairman, RMK Engineering College.</string>
+    <string name="vision1">To be the most preferred destination in the country for obtaining education in Engineering,Management and its allied fields, at the undergraduate, post graduate and research levels.</string>
+    <string name="vision2">To transform learners into achievers at the global level with the right attitude towards changing societal needs.</string>
+    <string name="mission1">To develop the resources and infrastructure not only to meet the statutory requirements but also far exceed them to become a preferred destination for learners by providing a conducive ambience for the teaching- learning process.</string>
+    <string name="mission2">To develop in the learners high personal and professional ethical values, technical competence and a spirit of entrepreneurship.</string>
+    <string name="mission3">To develop in the learners a desire for higher learning and research</string>
+    <string name="mission4">To interact with industries and other organizations to provide for transfer of knowledge and know how.</string>
+    <string name="mission5">Equip the students to face the global challenges.</string>
+    <string name="chairperson"><![CDATA[ <b><font color=#F44336 >Tmt. Manjula Munirathinam,</b><br><b> Chairperson.,</b><br><br>A keen social worker involved with various women forums. She has been in the educational field for the last 12 years.]]></string>
+    <string name="director"><![CDATA[ <b><font color=#F44336 >Thiru.R. Jothi Naidu,</b><br><b> Director.,</b><br><br>An industrialist with vast experience in various business lines, he has been involved in the management of the group of institutions for the past 12 years.]]></string>
+    <string name="vice_chair"><![CDATA[ <b><font color=#F44336 >Thiru.R.M. Kishore</b><br><b> Vice Chairman</b><br><br>Thiru. R.M.Kishore is a Mechanical Engineer from the University of Madras and has acquired his Masters degree in Business administration from University of Huddersfield, UK. A young member of the team, who has been managing the RMK group of Educational Institutions.]]></string>
+    <string name="secretary"><![CDATA[ <b><font color=#F44336 >Thiru.Yalamanchi Pradeep</b><br><b> Secreteray</b><br><br>Shri. Pradeep Yalamanchi is an Electronics and Communications Engineer from the Guindy Engineering College, Chennai (Anna University) and Obtained his Masters Degree in Information Systems Management from Carnegie Mellon University, USA.]]></string>
+    <string name="vice_chairperson"><![CDATA[ <b><font color=#F44336 >Tmt. Durga Devi Pradeep</b><br><b> Vice Chairperson</b><br><br>She holds a Bachelor’s Degree in Electronics and Communications Engineering from the University of Madras. She has her M.B.A Degree from the prestigious Anna University. She is currently pursuing her PhD in Management.]]></string>
+    <string name="trustee"><![CDATA[ <b><font color=#F44336 >Tmt. Sowmya Kishore </b><br><b>Trustee</b><br><br>She holds a Bachelor’s Degree in Electronics and Communications Engineering from Sathyabama University.]]></string>
+    <string name="senior_government_officials_1">Dr. Rajagopala Chidambaram, Principle Scientific Investigator, Govt. of India</string>
+    <string name="senior_government_officials_2">Dr. Anil Kakodkar, Chairman, Atomic Energy Commission, Govt. of India.</string>
+    <string name="senior_government_officials_3">Dr. Srikanta K. Panigrahi, Advisor to Prime Minister on Climate Change, and Director General,Carbon Minus India</string>
+    <string name="senior_government_officials_4">Hon\'ble Mr. Justice B. Subhashan Reddy,Chief Justice, High Court, Madras.</string>
+    <string name="senior_government_officials_5">Hon\'ble Mr. Justice D. Murugesan, Judge, High Court, Madras.</string>
+    <string name="senior_government_officials_6">Hon\'ble Mr. Justice V. Kanagarajan, Judge, High Court, Madras.</string>
+    <string name="senior_government_officials_7">Mr. N. Parameswaran, Chief General Manager, VSNL, Chennai.</string>
+    <string name="senior_government_officials_8">Mr. Ramasundaram, I. A. S, Chairman &amp; MD, TIDCO</string>
+    <string name="senior_government_officials_9">Mr. K. Ganesan, I. A. S, Secretary to Government, Department of higher education,Govt. of Tamil nadu</string>
+    <string name="senior_government_officials_10">Shri. S.K. Prabhakar, I.A.S., Director of Technical Education, Govt. of Tamil Nadu.</string>
+    <string name="senior_officials_1">Dr. R. Natarajan, Chairman, AICTE, New Delhi. M. Anandakrishnan, Chairman, All India Board of Undergraduate Education in Engineering &amp; Technology, AICTE, New Delhi</string>
+    <string name="senior_officials_2">Dr. R.A. Yadav, Vice Chairman, AICTE, New Delhi</string>
+    <string name="senior_officials_3">Dr. Prasad Krishna, Advisor, AICTE, New Delhi</string>
+    <string name="senior_officials_4">Dr. K. Narayana Rao, Member Secretary, AICTE, New Delhi</string>
+    <string name="distinguished_scientists_1">Dr. R.A. Mashelkar, Director General &amp; Secretary, CSIR, Govt. of India, DST.</string>
+    <string name="distinguished_scientists_2">Dr. G. Madhavan Nair, Chairman, Indian Space Research Organisation</string>
+    <string name="distinguished_scientists_3">Dr. A. Sivathanu Pillai, Distinguished Scientist, DRDO, New Delhi.</string>
+    <string name="distinguished_educationists_1">Dr. S. Rame Gowda, Former Chairman, All India Council for Technical Education, New Delhi.</string>
+    <string name="distinguished_educationists_2">Dr. A. Ramaswamy, Vice Chancellor, Alagappa University, Karaikudi.</string>
+    <string name="distinguished_educationists_3">Dr. D.K. Subramanian, Indian Institute of Science, Bangalore.</string>
+    <string name="distinguished_educationists_4">Prof. Dr. D. Viswanathan, Vice - Chancellor, Anna University</string>
+    <string name="distinguished_educationists_5">Dr. N. Radhakrishnan, Vice - Chancellor, North Corolina A &amp; T State University</string>
+    <string name="distinguished_educationists_6">Prof. David Goodman, Deputy Vice Chancellor, University of Technology, Sydney, Australia </string>
+    <string name="distinguished_educationists_7">Dr. Daniel Chandran, Senior Lecturer, Department of Information Systems.</string>
+    <string name="corporate_leaders_1">Mr. S. Ramadorai, Chief Executive Officer (CEO), Tata Consultancy Services (TCS)</string>
+    <string name="corporate_leaders_2">Mr. Nandan Nilekani, Chief Executive Officer (CEO), Infosys</string>
+    <string name="corporate_leaders_3">Mr.K.Ananth Krishnan, Chief Technology Officer (CTO), Tata Consultancy Services (TCS)</string>
+    <string name="corporate_leaders_4"> Dr. M.S. Vijayaraghavan, CEO, SITAR, Bangalore.</string>
+    <string name="corporate_leaders_5">Dr. J.S. Rao, Chief Technical Officer, Quest, Bangalore.</string>
+    <string name="corporate_leaders_6">Mr. Niranjan Kumar - Senior Vice President - Caritor (India) Pvt. Ltd.</string>
+    <string name="corporate_leaders_7">Mr. Rao S.Vadlamudi - C.E.O - Satyam -Venture Engineering Services Pvt. Ltd</string>
+    <string name="corporate_leaders_8">Mr. P.Gopinath - Associate Vice President - Recruitment Xansa Technology Ltd</string>
+    <string name="corporate_leaders_9">Mr. T.G.S.Babu - Executive Director - Blue Star Ltd</string>
+    <string name="corporate_leaders_10">Dr. K. Kesavasamy - Global Head(AIP) - Tata Consultancy Services Ltd</string>
+    <string name="corporate_leaders_11"> Dr. A. K. Pattabiraman, Head - Accreditation Process for South India, TCS</string>
+    <string name="corporate_leaders_12">Mr. K. Ganesan, Vice-President HR &amp; Global Head Recruitment, TCS Ltd.,</string>
+    <string name="corporate_leaders_13">Dr. Nandkishore S.Rathi, Director, Campus relations, Asia Pacific Oracle India(P)Ltd.,</string>
+    <string name="eminent_social_workers">Mrs.Sudha Murthy - Chairperson - Infosys Foundation</string>
+    <string name="principal_1">Dr. K.A. Mohamed Junaid is an illustrious Professor in the Department of Electronics and Instrumentation Engineering. He has a vast experience in teaching, research &amp; administration for more than 27 years at different levels. He earned his Ph.D in the area of Image Processing &amp; Networks, Master Engineering degree in Power Electronics from College of Engineering, Guindy, Anna University, Chennai and Bachelors degree in Electronics &amp; Communication Engineering from Bharathiar University, Coimbatore. He started his career from a reputed Technical Institution as a Lecturer in the year 1988. Then he served as a Lecturer (Senior Grade), Assistant Professor and Professor &amp; HOD I/C in a reputed Engineering College from 1991 &#8211; 2005. He has been working in RMKEC from 2005 to tilldate. </string>
+    <string name="principal_2">He has collaborated actively with researchers in several disciplines of Electronics, Communication and Instrumentation, including Bio Medical Image Processing, Healthcare Instrumentation and Telemedicine. He has guided more than 30 UG projects and 10 PG Research projects. He has published over 12 papers in refereed International Journals and presented more than 25 papers in International and National conferences in India and abroad.</string>
+    <string name="principal_3">He holds the Life membership of the Indian Society for Technical Education (New Delhi), Bio- Medical Engineering Society &amp; Instrument Society of India and a member of International Association of Engineers. He was awarded as the \'BEST STAFF OF ECE\’, during the year 1997 &amp; 1998. He Received \“Partners in Excellence\” Award from Mitsubishi Electric India Private Limited at Automotive Forum held during 2015. </string>
+    <string name="principal_4">He has organized several FDPs, conferences &amp; workshops on both national and international levels, sponsored by AICTE, Anna University, CSIR and various industries. He is a Member of Advisory Committee of core industries to provide consultancy activities including Technical Lecture, workshops, consultancy and R&amp;D project guidance. He also holds the position of Editorial board member, Technical committee member and Research advisory committee member in various organizations, NBA, AICTE, Anna University and other universities.</string>
+    <string name="dean_content"><![CDATA[ <b><font color=#F44336 >Prof. K. Chandrasekaran</b> possesses a Bachelor\'s Degree in Mechanical Engineering from the University of Madras, along with a Master of Technology degree in Engineering Mechanics and a Doctoral Degree in Aeronautical Engineering both from the Indian Institute of Technology Madras. He has over 31 years of teaching and research experience in the colleges under the Directorate of Technical Education and in Anna University. He served in the College of Engineering, Guindy, a constituent of Anna University in various capacities including the Headship of Department of Mechanical Engineering. Prior to joining the R.M.K. Engineering College in 1998, he was the Director of AU-FEG Institute for CAD / CAM, Anna University. He has undertaken several funded projects with external funding of more than Rs.40 Lakhs from various funding agencies. He has guided to completion 4 doctoral scholars and has over 30 publications in International Journals and International Conference Proceedings. He has been a consultant to many automotive industries in Chennai.]]></string>
+    <string name="academic_co_ordinator_content"><![CDATA[ <b><font color=#F44336 >Dr. S. Pavai Madheswari</b> , has 17 years of teaching experience inclusive of 11 years in the field of research. She obtained her Bachelor’s Degree in Mathematics from the University of Madras and Master of Science Degree in Mathematics from the Bharathiar University, Coimbatore. She has obtained her Doctoral degree in Mathematics (Stochastic Processes) from Anna University, Chennai.<br><br>She has published papers in over 14 refereed International Journals and 10 International / National Conference proceedings. She has qualified in the CSIR joint UGC examination and was awarded the Junior Research Fellowship during the year 1989 – 1991.<br><br>She has guided to completion one Doctoral Scholar and currently guiding 2 students.]]></string>
+    <string name="civil_1">Civil Engineering </string>
+    <string name="civil_2">Dr. Binu Sukumar, M.Tech.,Ph.D.</string>
+    <string name="cs_1">Computer Science &amp; Engineering  </string>
+    <string name="cs_2">Dr. Sethukarasi T M.E.,Ph.D.</string>
+    <string name="eee_1">Electrical &amp; Electronics Engineering  </string>
+    <string name="eee_2">Dr. Geetha Ramdas , M.E, Ph.D.,</string>
+    <string name="ece_1">Electronics &amp; Communication Engineering </string>
+    <string name="ece_2">Dr. Sivakumar R , M.E., Ph.D.</string>
+    <string name="eie_1">Electronics &amp; Instrumentation Engineering </string>
+    <string name="eie_2">Dr. Gnanasekaran T B.E., M.S., M.E., Ph.D.,</string>
+    <string name="it_1">Information Technology </string>
+    <string name="it_2">Dr. K. Vijaya , M.E.,Ph.D.</string>
+    <string name="mech_1">Mechanical Engineering </string>
+    <string name="mech_2">Dr.K.R. Senthilkumar, M.E, Ph.D (IITM)</string>
+    <string name="sh_1">Science &amp; Humanities </string>
+    <string name="sh_2">Dr. Pavai Madheswari S M.Sc.,M.Phil.,M.Tech.,Ph.D.</string>
+    <string name="training_and_placement_1">Training &amp; Placement </string>
+    <string name="training_and_placement_2">Dr. Sivagnana Prabhu K K , B.E.,M.Tech, Ph.D.</string>
+    <string name="central_library_1">Central Library </string>
+    <string name="central_library_2">Dr. Seenivasan M , B.Sc., M.A., M.L.I.S., M.Phil, Ph.D</string>
+    <string name="physical_education_1">Physical Education </string>
+    <string name="physical_education_2">Dr. Vakada Krishnarjuna Rao, M.A, M.Phil, M.Sc(Yoga), M.Ped, Ph.D</string>
+
+
+    <string-array name="department">
+        <item>Select</item>
+        <item>CE</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>EIE</item>
+        <item>IT</item>
+        <item>ME</item>
+        <item>ECE</item>
+        <item>MBA</item>
+        <item>MCA</item>
+        <item>MEAPE</item>
+        <item>MECSE</item>
+        <item>MEPED</item>
+        <item>MEVLSI</item>
+        <item>SH</item>
+    </string-array>
+    <string-array name="batch">
+        <item>Select</item>
+        <item>2027</item>
+        <item>2026</item>
+        <item>2025</item>
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+
+    </string-array>
+    <string-array name="category">
+        <item>Select</item>
+        <item>Student</item>
+        <item>Staff</item>
+        <item>HOD</item>
+        <item>Office</item>
+        <item>Parent</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_chairman">Chairman</string>
+    <string name="the_chairman">THE CHAIRMAN</string>
+    <string name="the_vice_chairman">THE VICE CHAIRMAN</string>
+    <string name="chairman_s_message">Chairman\'s Message</string>
+    <string name="vision_mission">Vision And Mission</string>
+    <string name="vision">VISION</string>
+    <string name="mission">MISSION</string>
+    <string name="management_team">Management Team</string>
+    <string name="senior_government_officials">Senior Government Officials</string>
+    <string name="distingued_guests">Distingued Guests</string>
+    <string name="dr_anil_kakodkar">Dr. Anil Kakodkar</string>
+    <string name="mr_nandan_nilekani">Mr. Nandan Nilekani</string>
+    <string name="mrs_sudha_murthy">Mrs. Sudha Murthy</string>
+    <string name="mr_s_ramadorai">Mr.S.Ramadorai</string>
+    <string name="senior_officials_from_aicte">Senior Officials from AICTE</string>
+    <string name="distinguished_scientists">Distinguished Scientists</string>
+    <string name="distinguished_educationists">Distinguished Educationists</string>
+    <string name="corporate_leaders">Corporate Leaders</string>
+    <string name="eminent_social_workers_1">Eminent Social Workers</string>
+    <string name="principal">PRINCIPAL</string>
+    <string name="dean">DEAN</string>
+    <string name="academic_co_ordinator">ACADEMIC CO ORDINATOR</string>
+    <string name="head_of_the_department">HEAD OF THE DEPARTMENT</string>
+    <string name="general_conditions">GENERAL CONDITIONS</string>
+    <string name="s_no">S.No</string>
+    <string name="sc_st">SC/ST</string>
+    <string name="mbc_mnc">MBC/MNC</string>
+    <string name="bc">BC</string>
+    <string name="oc">OC</string>
+    <string name="eligibility">ELIGIBILITY</string>
+    <string name="m_s_ph_d_programs_are_offered_in_the_following_centres_of_research_approved_by_the_anna_university_chennai_chennai">M.S. / Ph.D. programs are offered in the following Centres of Research approved by the Anna University Chennai, Chennai:</string>
+    <string name="governing_board">GOVERNING BOARD</string>
+    <string name="principal1">Principal</string>
+    <string name="governing_board1">Governing Board</string>
+    <string name="dean1">Dean</string>
+    <string name="academic_co_cordinator1">Academic Co Cordinator</string>
+    <string name="head_of_departments1">Head of Departments</string>
+    <string name="admission_procedure1">Admission Procedure</string>
+</resources>

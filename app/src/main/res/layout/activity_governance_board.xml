@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.guru.google.Governance_board">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <ImageView
+            android:id="@+id/governance_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@mipmap/white" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#03A9F4"
+            android:text="@string/governing_board"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/board_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+               android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+android:text="S.NO"
+                        android:backgroundTint="#CFD8DC"
+                        android:textStyle="bold"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="NAME"
+                        android:backgroundTint="#CFD8DC"
+                        android:textStyle="bold"
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="POSITION"
+                        android:textStyle="bold"
+                        android:backgroundTint="#CFD8DC"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:text="QUALIFICATION"
+                        android:backgroundTint="#CFD8DC"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="OCCUPATION"
+                        android:textStyle="bold"
+                        android:backgroundTint="#CFD8DC"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="1"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow><TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/s_no_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="3"
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/name_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/position_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/qualification_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/occupation_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+            </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="4"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow><TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/s_no_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="5"
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/name_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/position_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/qualification_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/occupation_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+            </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="6"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="7"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="8"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="9"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="10"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="11"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="12"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="13"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="14"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="15"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="16"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="17"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="18"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="19"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow><TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:id="@+id/s_no_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="20"
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/name_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/position_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/qualification_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/occupation_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/border"
+                    android:textColor="#000000"/>
+            </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="21"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" >
+                    <TextView
+                        android:id="@+id/s_no_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="22"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/name_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/position_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/qualification_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/occupation_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:background="@drawable/border"
+                        android:textColor="#000000"/>
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
+
+
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
+

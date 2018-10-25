@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item><layer-list>
+        <item><shape>
+            <gradient android:angle="90"  android:type="linear" />
+
+            <stroke android:width="0.5dp" android:color="#CFD8DC" />
+
+
+
+            <padding  android:left="3dp" android:right="3dp"  />
+        </shape></item>
+        <item ><bitmap android:gravity="bottom|right" android:src="@mipmap/dropdown" />
+        </item>
+    </layer-list></item>
+
+</selector>

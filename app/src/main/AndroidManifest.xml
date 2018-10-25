@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guru.google">
+
+    <permission
+        android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="info.androidhive.googlemapsv2.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Google MAP API key -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/rmkec_icon"
+        android:label="RMKEC"
+        android:roundIcon="@mipmap/rmkec_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+        <activity android:name=".News" >
+
+        </activity>
+        <activity android:name=".Contactus" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Chairman_menu" />
+        <activity android:name=".ViceChairman" />
+        <activity android:name=".Chairman_message" />
+        <activity android:name=".Vision_and_mission" />
+        <activity android:name=".Management" />
+        <activity android:name=".Guests" />
+        <activity android:name=".Principal" />
+        <activity android:name=".Dean" />
+        <activity android:name=".vice_principal" />
+        <activity android:name=".Academic_co_ordinator" />
+        <activity android:name=".Hod" />
+        <activity android:name=".Administration_procedure" />
+        <activity android:name=".Governance_board" />
+        <activity android:name=".Homescreen">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBYEoyxFzsFJLYX5m_rBVxGXcuCLFTFGsU" />
+
+        <activity
+            android:name=".Gallery"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".GalleryPreview"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AlbumActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".Hospital" />
+        <activity android:name=".Gymnasium" />
+        <activity android:name=".Green_campus" />
+        <activity android:name=".Hostel" />
+        <activity android:name=".General_facilities" />
+        <activity android:name=".Computer_center_faculty" />
+        <activity android:name=".Browser_view" />
+        <activity android:name=".Civil_faculty">
+
+        </activity>
+        <activity android:name=".Developed_by">
+
+        </activity>
+    </application>
+
+</manifest>

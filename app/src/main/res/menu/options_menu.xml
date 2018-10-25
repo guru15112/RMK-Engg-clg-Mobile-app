@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/profile"
+        android:title="@string/profile" />
+    <item android:id="@+id/home"
+        android:title="@string/home" />
+    <item android:id="@+id/news"
+    android:title="News" />
+    <item android:id="@+id/gallery"
+        android:title="Gallery" />
+    <item android:id="@+id/about_us"
+        android:title="@string/about_us" >
+        <menu>
+            <item android:id="@+id/chairman"
+                android:title="@string/chairman" />
+            <item android:id="@+id/vice_chairman"
+                android:title="@string/vice_chairman" />
+            <item android:id="@+id/management"
+                android:title="@string/management" />
+            <item android:id="@+id/chairman_message"
+                android:title="@string/chairman_message" />
+            <item android:id="@+id/vision_mission"
+                android:title="@string/vision_and_mission" />
+            <item android:id="@+id/distinguished_guests"
+                android:title="@string/distinguished_guests" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/administration"
+        android:title="@string/administration" >
+        <menu>
+            <item android:id="@+id/governance_board"
+                android:title="@string/governing_board1" />
+            <item android:id="@+id/principal"
+                android:title="@string/principal1" />
+            <item android:id="@+id/dean"
+                android:title="@string/dean1" />
+            <item android:id="@+id/academic_co_ordinator"
+                android:title="@string/academic_co_cordinator1" />
+            <item android:id="@+id/hod"
+                android:title="@string/head_of_departments1" />
+            <item android:id="@+id/admission_procedcure"
+                android:title="@string/admission_procedure1" />
+        </menu>
+    </item>>
+    <item android:id="@+id/academics"
+        android:title="@string/academics" />
+    <item android:id="@+id/departments"
+        android:title="@string/departments" />
+    <item android:id="@+id/placement"
+        android:title="@string/placement" />
+    <item android:id="@+id/campus"
+        android:title="@string/campus" >
+        <menu>
+        <item android:id="@+id/general_facilities"
+            android:title="General Facilities" />
+        <item android:id="@+id/green_campus"
+            android:title="Green Campus" />
+            <item android:id="@+id/computer_center"
+                android:title="Computer Center" >
+                <menu>
+                    <item android:id="@+id/about_cc"
+                        android:title="About CC" />
+                    <item android:id="@+id/internet"
+                        android:title="Internet" />
+                    <item android:id="@+id/faculty_cc"
+                        android:title="Faculty" />
+                    <item android:id="@+id/sys_confg"
+                        android:title="System Configuration" />
+                    <item android:id="@+id/events"
+                        android:title="Events" />
+                </menu>
+            </item>
+        <item android:id="@+id/central_library"
+            android:title="Central Library" >
+
+        </item>
+        <item android:id="@+id/hostel"
+            android:title="Hostel" />
+        <item android:id="@+id/transport"
+            android:title="Transport" />
+        <item android:id="@+id/hospital"
+            android:title="Hospital" />
+        <item android:id="@+id/gymnasium"
+            android:title="Gymnasium" />
+        </menu>
+    </item>
+    <item android:id="@+id/contact_us"
+        android:title="@string/contact_us" />
+    <item android:id="@+id/nirf"
+        android:title="@string/nirf" />
+    <item android:id="@+id/log_out"
+        android:title="@string/log_out" />
+
+
+</menu>
